@@ -16,10 +16,9 @@ logging.basicConfig(
 )
 
 # --- ЗМІННІ СЕРЕДОВИЩА (Railway Environment Variables) ---
-TELEGRAM_TOKEN = os.environ.get(
-    "TELEGRAM_TOKEN", "5994037577:AAFjj03rMKr31vhtB-b2zmF1Q1MZdSYRCag"
-)
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "AQ.Ab8RN6JGj-s7PsRCcWKz0uqF-Oxs-5Rlmes132KnRzC2tbsVFg")
+# Прямі ключі для надійної роботи
+TELEGRAM_TOKEN = "5994037577:AAFjj03rMKr31vhtB-b2zmF1Q1MZdSYRCag"
+GEMINI_API_KEY = "AQ.Ab8RN6JGj-s7PsRCcWKz0uqF-Oxs-5Rlmes132KnRzC2tbsVFg"
 
 ADMIN_ID = int(os.environ.get("ADMIN_ID", 1813590984))
 SUBSCRIPTION_PRICE_STARS = int(os.environ.get("SUBSCRIPTION_PRICE_STARS", 500))
